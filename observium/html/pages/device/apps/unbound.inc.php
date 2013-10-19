@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * Observium
+ *
+ *   This files is part of Observium.
+ *
+ * @package    observium
+ * @subpackage applications
+ * @copyright  (C) 2006 - 2013 Adam Armstrong
+ *
+ */
+
+$app_graphs['default'] = array('unbound_queries' => 'Unbound - DNS traffic and cache hits',
+                'unbound_queue'   => 'Unbound - Queue statistics',
+                'unbound_memory'  => 'Unbound - Memory statistics',
+                'unbound_qtype'   => 'Unbound - Queries by Query type',
+                'unbound_rcode'   => 'Unbound - Queries by Return code',
+                'unbound_opcode'  => 'Unbound - Queries by Operation code',
+                'unbound_class'   => 'Unbound - Queries by Query class',
+                'unbound_flags'   => 'Unbound - Queries by Flags');
